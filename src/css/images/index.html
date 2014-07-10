@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="lib/jquery-1.6.4.js"></script>
+        <script src="lib/jquery.mobile-1.1.0.js"></script>
+        <link href="src/css/jquery.mobile.structure-1.1.0.css" rel="stylesheet">
+        <link href="src/css/jquery.mobile.theme-1.1.0.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div data-role="page" id="inicio">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <ul data-role="listview" data-inset="true"></ul>
+                    <div data-role="collapsible">
+                        <h1>EL SABOR DE LA VIDA</h1>
+                    </div>
+                </div>
+                <div class="div-widget">
+                    <ul data-role="listview" data-inset="true"></ul>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+                <div data-role="collapsible">
+                    <h1>MENU</h1>
+                    <ul data-role="listview" data-inset="true">
+                        <li>
+                            <a href="#mexicano "> Mexicano</a>
+                        </li>
+                        <li>
+                            <a href="#Italiano"> Italiano</a>
+                        </li>
+                        <li>
+                            <a href="#page2 ">Frances</a>
+                        </li>
+                        <li>
+                            <a href="#page2 ">Aleman</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="mexicano">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <ul data-role="listview" data-inset="true">
+                        <li>
+                            <a href="#Desayunos ">Desayuno</a>
+                        </li>
+                        <li>
+                            <a href="#comidas ">Comida</a>
+                        </li>
+                        <li>
+                            <a href="#Postres ">Postres</a>
+                        </li>
+                        <li>
+                            <a href="#Bebidas ">Bebidas</a>
+                        </li>
+                    </ul>
+                    <a data-role="button" href="#inicio ">Menu Principal</a>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+            </div>
+        </div>
+        <div data-role="page" id="Desayunos">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <a data-role="button" href="#mexicano ">Menu Principal</a>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+            </div>
+        </div>
+        <div data-role="page" id="comidas">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <a data-role="button" href="#mexicano ">Menu Principal</a>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+            </div>
+        </div>
+        <div data-role="page" id="Postres">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <a data-role="button" href="#mexicano ">Menu Principal </a>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+            </div>
+        </div>
+        <div data-role="page" id="Bebidas">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <a data-role="button" href="#mexicano ">Menu Principal</a>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+            </div>
+        </div>
+        <div data-role="page" id="Italiano">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <div class="div-widget">
+                    <ul data-role="listview" data-inset="true">
+                        <li>
+                            <a href="#inicio">Desayuno</a>
+                        </li>
+                        <li>
+                            <a>Comida</a>
+                        </li>
+                        <li>
+                            <a>Postre</a>
+                        </li>
+                        <li>
+                            <a>Bebidas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+            </div>
+        </div>
+    </body>
+
+</html>
